@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Setup .NET
-      uses: actions/setup-msbuild@v2
+      uses: microsoft/setup-msbuild@v2.0.0
       with:
         msbuild-architecture: x64
     # - name: Restore dependencies
